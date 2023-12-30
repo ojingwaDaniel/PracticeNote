@@ -1,34 +1,24 @@
 import logo from "./logo.svg";
 import "./App.css";
 
-function App() {
+function App(){
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+      <header>
+        <img src={logo} alt="img"  className = 'App-logo'/>
       </header>
-      <h1>Fun Facts About React</h1>
+      <h1>Fun Fact About React</h1>
       <ul>
-        <li>
-          Was first released in 2013
-        </li>
-        <li>
-          Was originally created by Jordan Walke
-        </li>
-        <li>
-        Has well over 100k stars on github
-        </li>
-        <li>
-          is maintained by Facebook
-        </li>
-        <li>
-          Powers thousands of enterprise apps , including mobile apps
-        </li>
+        <li>Is Compatible</li>
+        <li> Is Been maintained By Faceboo</li>
+        <li> Is declarative not Imperative</li>
+        <li>Is easy to install and use immediately</li>
       </ul>
-
-    
+      <footer>
+        &copy; CopyRight 2023
+      </footer>
+      
     </div>
   );
 }
-
-export default App;
+export default App
