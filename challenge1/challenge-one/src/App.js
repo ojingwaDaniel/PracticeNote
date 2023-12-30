@@ -5,9 +5,9 @@ function App(){
   return (
     <div className="App">
       <header>
-        <img src={logo} alt="img"  className = 'App-logo'/>
+        <img src={logo} alt="img" className="App-logo" />
       </header>
-      <h1>Fun Fact About React</h1>
+      <h1>Reason im excited to learn React!</h1>
       <ul>
         <li>Is Compatible</li>
         <li> Is Been maintained By Faceboo</li>
@@ -15,9 +15,8 @@ function App(){
         <li>Is easy to install and use immediately</li>
       </ul>
       <footer>
-        &copy; CopyRight 2023
+        <small> &copy; 2023 Ojingwa Development All right Reserved</small>
       </footer>
-      
     </div>
   );
 }
