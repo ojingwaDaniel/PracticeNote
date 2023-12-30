@@ -1,15 +1,7 @@
 import logo from "./logo.svg";
 import "./App.css";
 
-function App(){
-  return (
-    <div className="App">
-      <Header/>
-      <MainContent/>
-      <Footer/>
-    </div>
-  );
-}
+
 function Header(){
   return (
     <header>
@@ -38,6 +30,15 @@ function Footer(){
     <footer>
       <small> &copy; 2023 Ojingwa Development All right Reserved</small>
     </footer>
+  );
+}
+function App() {
+  return (
+    <div className="App">
+      <Header />
+      <MainContent />
+      <Footer />
+    </div>
   );
 }
 export default App
