@@ -36,13 +36,20 @@ const NavBar = (
   </nav>
 );
 RenderDom.render(NavBar,document.getElementById('root'))
+
+
+
 ///  Challenge 2
-const StaticPage  (
+import React from 'react'
+import ReactDom from 'react-dom'
+
+const Div = document.getElementById('root')
+const StaticPage = (
     <div>
         <nav>
             <h1>My Website</h1>
             <ul>
-                <li>PRicing</li>
+                <li>Pricing</li>
                 <li>About</li>
                 <li>COntact</li>
             </ul>
@@ -58,4 +65,4 @@ const StaticPage  (
     </div>
 
 )
-
+Div.appendChild(StaticPage)
