@@ -5,10 +5,14 @@ import "./App.css";
 function Header(){
   return (
     <header>
-      <nav>
+      <nav className="nav">
         <img src={logo} alt="img" className="App-logo" />
+        <ul>
+          <li>About</li>
+          <li>Contact</li>
+          <li>Pricing</li>
+        </ul>
       </nav>
-      <h3>REACT COURSE </h3>
     </header>
   );
 }

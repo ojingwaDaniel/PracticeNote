@@ -5,10 +5,25 @@
   width: 40px;
 }
 
+ 
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+.nav{
+  display: flex;
+  justify-content: space-between;
+  
+}
+nav ul{
+  display: flex;
+  
+}
+nav ul li{
+  list-style: none;
+  padding: 10px;
 }
 
 body{
