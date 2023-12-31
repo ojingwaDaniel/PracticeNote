@@ -18,15 +18,15 @@ function Header(){
 }
 function MainContent(){
   return (
-    <>
-      <h1>Reason im excited to learn React!</h1>
+    <div  className = 'main-content'>
+      <h1>Reason I'm Excited To Learn React!</h1>
       <ul>
         <li>Is Compatible</li>
         <li> Is Been maintained By Faceboo</li>
         <li> Is declarative not Imperative</li>
         <li>Is easy to install and use immediately</li>
       </ul>
-    </>
+    </div>
   );
 }
 function Footer(){
