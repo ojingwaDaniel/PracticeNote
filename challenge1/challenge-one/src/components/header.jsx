@@ -6,9 +6,10 @@ export default function Header() {
       <nav className="nav">
         <img src={logo} alt="img" className="App-logo" />
         <ul>
+          
           <li>About</li>
+          <li>Projects</li>
           <li>Contact</li> 
-          <li>Pricing</li>
         </ul>
       </nav>
     </header>
