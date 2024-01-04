@@ -12,7 +12,7 @@ export default function Header() {
 
         <ul>
           <li>React Course</li>
-          <li>Project 1</li> 
+          <li>-Project 1</li> 
         </ul>
       </nav>
     </header>

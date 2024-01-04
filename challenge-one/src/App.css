@@ -61,9 +61,15 @@ div{
   display: flex;
 }
 .intro{
-  color: #61dafb;
-  font-weight: 900;
+  color:rgba(97, 218, 251, 1);
+  font-family: Inter;
+  font-size: 25px;
+  font-weight: 700;
+  letter-spacing: -1.113px;
   position: relative;
-  top: 30px;
-  left: 50px;
+  top: 35px;
+  
+
+
+
 }
